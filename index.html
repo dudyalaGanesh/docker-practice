@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps: A Single Page Overview</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #1e3c72, #2a5298);
+            color: #ffffff;
+        }
+
+        header {
+            background-color: #162447;
+            padding: 1rem 2rem;
+            text-align: center;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin-top: 0.5rem;
+            font-size: 1.1rem;
+            color: #b3c7d6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+
+        section {
+            margin-bottom: 2rem;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            font-size: 2rem;
+            border-bottom: 2px solid #4f91d9;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        section p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .card {
+            background: #ffffff;
+            color: #162447;
+            border-radius: 10px;
+            padding: 1.5rem;
+            text-align: center;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #1e3c72;
+        }
+
+        .card p {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #162447;
+            color: #b3c7d6;
+            font-size: 0.9rem;
+            box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        footer a {
+            color: #4f91d9;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DevOps: Bridging Development and Operations</h1>
+        <p>Explore the core principles and tools that power modern software delivery.</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>What is DevOps?</h2>
+            <p>
+                DevOps is a set of practices, tools, and a cultural philosophy that automates and integrates the processes between software development and IT teams.
+                It emphasizes collaboration, continuous integration, and delivery to produce reliable and scalable software systems.
+            </p>
+        </section>
+
+        <section>
+            <h2>Key Principles of DevOps</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Collaboration</h3>
+                    <p>Foster communication and collaboration between development and operations teams.</p>
+                </div>
+                <div class="card">
+                    <h3>Automation</h3>
+                    <p>Automate repetitive tasks, from testing to deployment, for faster delivery.</p>
+                </div>
+                <div class="card">
+                    <h3>Continuous Improvement</h3>
+                    <p>Use feedback loops to identify and implement improvements continuously.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Popular DevOps Tools</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Jenkins</h3>
+                    <p>An open-source automation tool for continuous integration and deployment.</p>
+                </div>
+                <div class="card">
+                    <h3>Docker</h3>
+                    <p>A platform for containerizing applications to run anywhere consistently.</p>
+                </div>
+                <div class="card">
+                    <h3>Kubernetes</h3>
+                    <p>A system for automating deployment, scaling, and management of containerized apps.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>Created with ❤️ to simplify DevOps for everyone. Learn more on <a href="https://aws.amazon.com/devops/">AWS DevOps</a>.</p>
+    </footer>
+</body>
+</html>
